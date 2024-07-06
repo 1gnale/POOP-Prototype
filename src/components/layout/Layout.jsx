@@ -13,8 +13,7 @@ const Layout = () => {
             <Header />
             {poems.map((poem, index) => (
                 <Card key={index}>
-                    {console.log(index)}
-                    <Prototype text={poem} />
+                    <Prototype poem={poem.text} />
                 </Card>
             ))}
             <Footer />

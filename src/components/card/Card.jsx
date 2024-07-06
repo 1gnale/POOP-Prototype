@@ -2,7 +2,7 @@
 
 const Card = ({ children }) => {
     return (
-        <div>
+        <div className="card">
             <h1>{"Titulo no encontrado"}</h1>
             {children}
         </div>

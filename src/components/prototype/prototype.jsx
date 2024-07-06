@@ -1,9 +1,9 @@
 import React from "react"
 
 
-const Prototype = ({ text }) => {
-  console.log(text)
-  const splitedText = text
+const Prototype = ({ poem }) => {
+  let splitedText = []
+  poem ? splitedText = poem.split('|') : null
 
 
   return (
